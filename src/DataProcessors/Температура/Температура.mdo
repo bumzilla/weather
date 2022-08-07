@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16b86d21-9f71-4489-9967-eec8707cb235">
+  <producedTypes>
+    <objectType typeId="ac5f12d8-d4fe-4cf3-bdb2-95fd6742b6d1" valueTypeId="9c12ce52-a10a-4746-9e25-ce29ecb340fe"/>
+    <managerType typeId="77d45f2c-e7d2-47d6-91ae-4d2ff14471b1" valueTypeId="4947a03e-2ed4-4d47-99f6-8b78c1e614d7"/>
+  </producedTypes>
+  <name>Температура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Температура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Температура.Form.Форма</defaultForm>
+  <attributes uuid="e5ca37c3-05bb-4204-bb2a-6f681cff283a">
+    <name>НаселенныйПункт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Населенный пункт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаселенныеПункты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="cf21cf9d-d95f-4ea8-ab4f-fa9554dac236">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сервисы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="b45d5448-7f27-482d-b72e-85c3d7af35f8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

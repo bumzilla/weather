@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a9c6056-920b-4cd5-8e56-27a7850bc674">
+  <producedTypes>
+    <objectType typeId="c3abeb36-577a-41d7-a16b-7620eb2a6eac" valueTypeId="a4d723c8-5f8e-49f6-85fd-a508883455b4"/>
+    <refType typeId="6165d6b5-8e72-4950-a31a-d694beb65614" valueTypeId="572071e8-5d5e-4475-8b16-00695339b5fc"/>
+    <selectionType typeId="eb33a5e7-1d2a-4a66-b4d1-1e5177c303e0" valueTypeId="dafafce5-0751-4b15-aae8-496bc1fc09fb"/>
+    <listType typeId="c9d043a9-b509-443f-a7e0-716305cbdcd0" valueTypeId="9ec767df-bf56-4f2e-9553-33b86b6d77f1"/>
+    <managerType typeId="a7110bbd-bc0f-4101-b47a-96390fcb52a3" valueTypeId="d229515e-031e-4691-ab12-a897c1ddf19e"/>
+  </producedTypes>
+  <name>Сервисы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сервисы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сервисы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сервисы</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9dbf83db-746e-4b1e-ad20-51ad782c9b31">
+      <name>OpenWeather</name>
+      <description>OpenWeather</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сервисы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Сервисы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="38a2640c-1918-4bba-8b79-b71d718bbcab">
+    <name>СтрокаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d05069a3-1250-4de5-983a-a329d9eca5ca">
+    <name>ПутьКТемпературе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к температуре</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Строка с доступом к температуре с разделителями ;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="19c24dd4-0d8f-459c-b5ca-8b284b7d7fc5">
+    <name>НачальноеЗаполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальное заполнение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="308f9307-a4ec-4802-a530-abda9eb3f6b5">
+    <producedTypes>
+      <objectType typeId="5bb8f7dc-ceb7-4b95-b36e-fdd31452731a" valueTypeId="15477d85-13fa-4b8c-ba4e-2754179fadda"/>
+      <rowType typeId="0c946d78-009f-43d8-a5af-a442e7f6128b" valueTypeId="63de2ba1-bbe0-4d1a-85c8-e669c2c84a59"/>
+    </producedTypes>
+    <name>ПараметрыЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры запроса</value>
+    </synonym>
+    <attributes uuid="4d511795-e8d3-44ef-b3a4-fd42092377da">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46c13737-1a5c-4c50-86af-8b5400755f3b">
+      <name>ЗначениеПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="75a4af65-f2a6-4792-a54d-b0ad4ab8150d">
+      <name>ТипПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип параметра</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыЗаголовковЗапроса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5a1be498-e539-445b-8d9b-e8eeb60f7ed9">
+    <producedTypes>
+      <objectType typeId="ff2894e0-bef1-4f76-90e0-bce7c2845e07" valueTypeId="7bf3d453-d5ea-4ab4-8556-2e7136874cde"/>
+      <rowType typeId="6c701a97-0641-4c03-85ba-4068bbc8c776" valueTypeId="c3837a0c-6a69-478a-b27f-e86abbccb8e6"/>
+    </producedTypes>
+    <name>ЗаголовкиЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовки запроса</value>
+    </synonym>
+    <attributes uuid="cbf50203-4fb8-4080-9334-2600eca27c68">
+      <name>ИмяЗаголовка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя заголовка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="af57b3f9-87ae-40ed-8731-0409e06b723a">
+      <name>ЗначениеЗаголовка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение заголовка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0cc46685-9e51-4ea8-a685-fed574d276fe">
+      <name>ТипПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип параметра</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыЗаголовковЗапроса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3c6396c4-1b61-47f9-9fc6-df82710e84bc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3cc8b7df-1fac-486a-8d60-6f101e2168cb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

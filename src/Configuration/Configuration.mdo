@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5adffc21-4cac-46dc-bf18-ce6b38afaf68">
+  <name>Конфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мегафон Погода</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ca4c0349-bad3-4ece-aa15-6ea5a5b38de3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6ca1c2f8-eddd-4610-8766-697f3a4e65d3"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c08743d9-89db-4b4b-8cce-03189609a98f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="23b0bc1b-5685-4f92-845b-af8a4937e045"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bcca2218-611a-4652-8f88-c0adb52fb02f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="23a92ddf-f2a5-4cb2-9a34-1742425cd9ae"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2fc17682-3c9f-4fe4-bc99-b4f72fdfcb97"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="878a971e-23f6-4a5e-a3ec-1fd05ffde78a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Погода</subsystems>
+  <commonTemplates>CommonTemplate.ПреднастроенныеСервисы</commonTemplates>
+  <commonTemplates>CommonTemplate.НаселенныеПункты</commonTemplates>
+  <commonModules>CommonModule.СервисыПогоды</commonModules>
+  <commonModules>CommonModule.НачальноеЗаполнение</commonModules>
+  <catalogs>Catalog.Сервисы</catalogs>
+  <catalogs>Catalog.НаселенныеПункты</catalogs>
+  <enums>Enum.ТипыЗаголовковЗапроса</enums>
+  <dataProcessors>DataProcessor.Температура</dataProcessors>
+</mdclass:Configuration>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fbc04e7-31c3-4db7-b632-23a2e95a90ad">
+  <name>ПреднастроенныеСервисы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Преднастроенные сервисы</value>
+  </synonym>
+</mdclass:CommonTemplate>

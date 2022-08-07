@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a49ed2c-3d7b-4efe-8d1a-ca875d059233">
+  <name>Погода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Погода</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Сервисы</content>
+  <content>Enum.ТипыЗаголовковЗапроса</content>
+  <content>Catalog.НаселенныеПункты</content>
+  <content>3a7f1c55-4292-4a8d-b1c2-bd51af1d8171</content>
+  <content>bcc58066-4b34-4689-851b-d7c573a90164</content>
+  <content>CommonModule.СервисыПогоды</content>
+  <content>CommonTemplate.ПреднастроенныеСервисы</content>
+  <content>DataProcessor.Температура</content>
+</mdclass:Subsystem>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe5bd90d-54ea-4f09-927f-dbc0c2566a73">
+  <producedTypes>
+    <refType typeId="36ecab10-020b-4aee-89b1-872cc2ae3805" valueTypeId="9ef01bad-56e5-4125-8ba7-0423a6fc38e8"/>
+    <listType typeId="50760b59-4e7e-48fd-892d-6b4f8067cd48" valueTypeId="11d87054-580d-43a8-8a73-08833a478736"/>
+    <managerType typeId="88126eb9-5dd4-4751-a454-6c8897bb2979" valueTypeId="5363b683-f97c-4ee9-9679-4f33cd8636aa"/>
+  </producedTypes>
+  <name>ТипыЗаголовковЗапроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы заголовков запроса</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b37a2103-bf4d-4c80-a6a5-63da159efead">
+    <name>Широта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Широта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="127a822d-e5d3-4e88-8f9d-9e71f5f8b2d8">
+    <name>Долгота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долгота</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1771b844-84c3-406a-9573-85c50acef47e">
+    <name>КлючСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ сервиса</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

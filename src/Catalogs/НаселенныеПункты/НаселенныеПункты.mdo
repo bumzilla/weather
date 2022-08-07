@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aee14eb4-d5db-4a9e-b854-ed98f71a72c0">
+  <producedTypes>
+    <objectType typeId="a61ac802-b32c-467e-a8be-1ab63c5678c5" valueTypeId="ce0fba8c-ea41-4a11-b4b3-dc0b54fad310"/>
+    <refType typeId="b03f174b-a322-41d9-ad93-8f0f1a1b4883" valueTypeId="3fe7e02f-87f8-4ebf-a21f-d76c308f07dc"/>
+    <selectionType typeId="5571b1fe-e71a-4156-af17-c9fbc093ff88" valueTypeId="e192e81f-de91-4cac-8414-2d6df0abfa31"/>
+    <listType typeId="e0d7de47-e6bb-4a4a-8c91-77172dfef525" valueTypeId="e3d74c6e-2c2d-454f-9a8a-d4216718c0dc"/>
+    <managerType typeId="92e4a1dc-d38c-4c09-b0e1-94b6f2145bb9" valueTypeId="507a7404-aa32-4788-92f2-f9a1a1b217c6"/>
+  </producedTypes>
+  <name>НаселенныеПункты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Населенные пункты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаселенныеПункты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НаселенныеПункты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Населенные пункты</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1f5e0ba0-c8d3-412a-bc3b-fb5f5644f48d">
+      <name>Москва</name>
+      <description>Москва</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НаселенныеПункты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.НаселенныеПункты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="9b3f25e9-3302-424e-aed3-38daa8ca6fdc">
+    <name>Широта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Широта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧРД=.</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧРД=.</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df89c6fa-b362-45b3-ab0e-858fafc68915">
+    <name>Долгота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долгота</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧРД=.</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧРД=.</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="98ad2dc8-f79d-4e52-81f3-90e582622f19">
+    <name>НачальноеЗаполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальное заполнение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f0a9dd60-cb3f-4cb9-a969-fe741edab5f8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="501b24ce-a1b3-4f74-8168-6d92eeb4900b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
